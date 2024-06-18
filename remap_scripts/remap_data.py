@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the CSV file into a pandas DataFrame
-file_path = 'survey_responses.csv'
+file_path = './data/csv_files/all_responses.csv'
 df = pd.read_csv(file_path)
 
 # drop people that did not have material experience
@@ -68,4 +68,4 @@ print(mapped_df.groupby(['design', 'criteria'])['response'].count().reset_index(
 
 print(mapped_df.count())
 
-mapped_df.to_csv('survey_responses_mapped.csv', index=False)
+mapped_df.to_csv('./remap_scripts/survey_responses_mapped.csv', index=False)

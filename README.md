@@ -36,3 +36,16 @@ conda install -c conda-forge pandas
 ```
 
 The dataset is hosted on Huggingface and can be found [here](https://huggingface.co/datasets/cmudrc/Material_Selection_Eval).
+
+## Citing MSEval
+```bibtex
+@misc{jain2024msevaldatasetmaterialselection,
+      title={MSEval: A Dataset for Material Selection in Conceptual Design to Evaluate Algorithmic Models}, 
+      author={Yash Patawari Jain and Daniele Grandi and Allin Groom and Brandon Cramer and Christopher McComb},
+      year={2024},
+      eprint={2407.09719},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2407.09719}, 
+}
+```

@@ -39,7 +39,7 @@ conda install -c conda-forge pandas
 The dataset is hosted on Huggingface and can be found [here](https://huggingface.co/datasets/cmudrc/Material_Selection_Eval).
 
 # Demo
-The **MSEval_Demo.ipynb** notebook provides a step-by-step walkthrough of the process of extracting the MSEval dataset from HuggingFace, along with a demonstration of how to use it for evaluating algorithmic models.
+The **[MSEval_Demo.ipynb](https://github.com/cmudrc/MSEval/blob/main/MSEval_Demo.ipynb)** notebook provides a step-by-step walkthrough of the process of extracting the MSEval dataset from HuggingFace, along with a demonstration of how to use it for evaluating algorithmic models.
 ## Reasoning and Research Methods:
 The MSEval dataset was designed to evaluate the performance of algorithmic models in the specific task of material selection within conceptual design. The material selection process involves making critical decisions that impact product performance, cost, and sustainability, making it an essential aspect of many industries, including manufacturing and construction.
 
